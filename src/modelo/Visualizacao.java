@@ -28,7 +28,7 @@ public class Visualizacao {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
-	private LocalDateTime datahora =  LocalDateTime.now().minusHours(5).minusMinutes(15).minusSeconds(40);
+	private LocalDateTime datahora =  LocalDateTime.now();
 	private int nota;
 	@Version
 	private int versao;
